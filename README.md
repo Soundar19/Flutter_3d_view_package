@@ -38,10 +38,6 @@ A Flutter package for rendering interactive 3D models in different formats(glb, 
 - iOS
 - Web
 
-## Notes
-
-- For now this package only support GLB & glTF format, other 3d formats coming soon.
-- Visit the full example to see how to use this package
 
 ## Brief Example
 
@@ -89,7 +85,7 @@ controller.resetCameraOrbit();
 //The 3D viewer widget
 Flutter3DViewer(
   controller: controller,
-  src: 'assets/business_man.glb',
+  src: 'assets/name.glb',
 )
 ```
 
@@ -99,7 +95,8 @@ Flutter3DViewer(
 
 ```yaml
 dependencies:
-  flutter_3d_controller: ^1.2.1
+  flutter_3d_controller:
+  Path/
 ```
 
 ### `AndroidManifest.xml` (Android 9+ only)
